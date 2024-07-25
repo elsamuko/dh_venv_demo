@@ -1,0 +1,15 @@
+Source: weather
+Section: python
+Priority: extra
+Maintainer: First Last <first.last@example.com>
+Build-Depends: debhelper (>= 12), python3, dh-virtualenv (>= 1.1)
+Standards-Version: 3.9.5
+
+Package: weather
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1), python3.12, ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Description: A short summary of what this is.
+    Further indented lines can contain extra information.
+    .
+    A single dot separates paragraphs.
