@@ -1,4 +1,4 @@
 #!/usr/bin/make -f
 
 %:
-      dh $@ --with python-virtualenv
+	dh $@ --builtin-venv --python=python3 --with python-virtualenv

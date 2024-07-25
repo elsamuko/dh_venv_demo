@@ -1,1 +1,5 @@
 __pycache__
+.debhelper
+weather/build
+weather/debian/weather
+weather.egg-info
