@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "weather"
 description = "Show the current weather"
-dependencies = ["importlib-metadata"]
+dependencies = ["requests"]
 version = "1.0"
 
 [project.scripts]
